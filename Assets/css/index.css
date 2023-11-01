@@ -1,0 +1,191 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.headline {
+  color: #19345e;
+}
+
+.headline2 {
+  color: #19345e;
+}
+
+.benefit {
+  color: #19345e;
+}
+
+.btn-home {
+  background-color: #19345e;
+}
+
+.logo-home img {
+  width: 6rem;
+}
+
+.img-home img {
+  width: 25rem;
+}
+
+.home-1 {
+  margin-bottom: 6rem !important;
+}
+
+.benefit-wrap img {
+  width: 4rem;
+  background-color: #e7ebfc;
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+.benefit-wrap2 img {
+  width: 6rem;
+  padding: 1.5rem;
+  background-image: url(/Assets/images/Oval.svg);
+  background-size: cover;
+}
+
+.home-2 {
+  margin-bottom: 6rem !important;
+}
+
+.home-3 {
+  margin-bottom: 6rem !important;
+}
+
+.home-4 {
+  margin-bottom: 6rem !important;
+}
+
+.bg-story {
+  background-image: url(/Assets/images/Rectangle2.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 5rem 2rem;
+}
+
+.shutterstock {
+  position: absolute;
+  right: 0px;
+  top: 5rem;
+}
+
+.shutterstock {
+  width: 17rem;
+}
+
+.logitech {
+  width: 5rem;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dot-follow {
+  background-color: #19345e;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+
+.line-follow {
+  border-top: 1px solid;
+  width: 20rem;
+  height: 0rem;
+  border-style: dotted;
+}
+
+.home-5 {
+  background-color: #e7ebfc;
+  padding: 8rem;
+}
+
+.footer {
+  background-color: #19345e;
+}
+
+.logo-footer {
+  width: 10rem;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .benefit-wrap img {
+    width: 5rem;
+  }
+
+  .benefit-wrap2 img {
+    width: 8rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .benefit-wrap2 img {
+    width: 5rem;
+  }
+
+  .logo-home img {
+    width: 5rem;
+  }
+
+  .bg-story {
+    background-image: url(/Assets/images/Rectangle2.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+  }
+
+  .shutterstock {
+    position: static;
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .benefit-wrap img {
+    width: 5rem;
+  }
+
+  .logo-home img {
+    width: 4rem;
+  }
+
+  .bg-story {
+    background-image: url(/Assets/images/Rectangle2.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    position: static;
+  }
+
+  .shutterstock {
+    position: static;
+    right: 0px;
+    top: 0rem;
+    width: 20rem;
+  }
+
+  .bg-text {
+    width: 100% !important;
+  }
+
+  .benefit-wrap2 img {
+    width: 7rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo-home img {
+    width: 3rem;
+  }
+}

@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap");
+
+.part1 {
+  width: 100%;
+  height: 50rem;
+  flex-shrink: 0;
+  background: var(--base-bg-secondary, #e7ebfc);
+}
+
+.paragraf1 {
+  padding-top: 8.38rem;
+  padding-left: 6.94rem;
+  color: var(--base-text-primary, #19345e);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: inter;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.5rem;
+  letter-spacing: -0.0725rem;
+  text-transform: capitalize;
+}
+
+.paragraf2 {
+  padding-top: 1.5rem;
+  padding-left: 6.94rem;
+  color: #1e1e1e;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 2.125rem;
+  letter-spacing: -0.02688rem;
+}
+
+.container1 {
+  padding-top: 1.6rem;
+  display: flex;
+  padding-left: 6.94rem;
+}
+
+.image-potrait {
+  width: 5.625rem;
+  height: 5.625rem;
+  border-radius: 6.25rem;
+  background: lightgray -74.931px -1.873px / 277.166% 184.8% no-repeat;
+}
+
+.p-profile {
+  padding-left: 1rem;
+}
+
+.profile1 {
+  color: var(--base-text-secondary, #1e1e1e);
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem;
+  letter-spacing: -0.02rem;
+}
+
+.profile2 {
+  color: var(--base-text-secondary, #1e1e1e);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: -0.01813rem;
+}
+.button1 {
+  margin-left: 6.94rem;
+  margin-top: 1.6rem;
+  padding: 0.9375rem 1.5625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.0625rem;
+  background: var(--global-primary, #19345e);
+  color: #fff;
+  margin-bottom: 6rem;
+}
+
+.part2 {
+  width: 100%;
+  height: 23.5rem;
+  background: var(--global-primary, #19345e);
+}
+.paragraf3 {
+  padding-top: 4.44rem;
+  color: var(--base-text-on-dark, #fff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem;
+}
+.paragraf4 {
+  align-self: stretch;
+  color: var(--base-text-on-dark, #fff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+.border-right {
+  border-right: 1px solid #e5e5e5;
+}
+
+.achievement{
+padding:3rem 0 3rem 0;
+
+}
+
+.font-color {
+  color: white;
+}
+
+.part3 {
+  width: 100%;
+  height: 43.75rem;
+  background: var(--base-bg-primary, #fff);
+}
+.part3-image-left {
+  width: 35rem;
+  height: 31.25rem;
+  padding-left: 7.6rem;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+  object-fit: cover;
+}
+.paragraf5 {
+  color: var(--base-text-primary, #19345E);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 3.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.875rem;
+margin-top: 6.25rem;
+}
+.paragraf6 {
+  color: var(--base-text-secondary, #1E1E1E);
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.875rem;
+}
+
+.part4 {
+  width: 100%;
+  height: 43.75rem;
+  background: var(--base-bg-primary, #fff);
+}
+
+.feature-card {
+  width: 16rem;
+  height: 11rem;
+}
+
+.part4-img {
+  width: 100%;
+  height: 39rem;
+  object-fit: cover;
+}
+
+.part5 {
+  width: 100%;
+  background: #fff;
+  padding: 0 7rem;
+}
+
+.font-color-blue{
+  color: #19345E
+}
+
+.btn-circle-icon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #E7EBFC;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.part6 {
+  width: 100%;
+}
+
+.img-work {
+  width: 13rem;
+}
+
+.btn-book {
+  width: fit-content;
+  background-color: #19345E;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.img-brand {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1202px) {
+.part3-image-left {
+  max-width: 100%;
+  align-items: center;
+}
+}

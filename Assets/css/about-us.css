@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .text-blue {
+    color: #19345e;
+  }
+  
+  .section-1 {
+    background-color: #e7ebfc;
+  }
+  
+  .potrait-oval {
+    width: 5rem;
+  }
+  
+  .btn-section1 {
+    background-color: #19345e;
+  }
+  
+  .icon-logo {
+    width: 3rem;
+  }
+  
+  .card-box {
+    width: 20rem;
+  }
+  
+  .icon-logo-2 {
+    background-image: url(/Assets/images/Oval.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1.3rem;
+    width: 4rem;
+  }
+  
+  .shutterstock {
+    width: 20rem;
+  }
+  
+  .logitech {
+    width: 6rem;
+  }
+  
+  .text-gray {
+    color: #767676;
+  }
+  
+  .icon-arrow {
+    width: 4rem;
+    padding: 1rem;
+    background-image: url(/Assets/images/Oval.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .rectangel {
+    width: 15rem;
+    height: 15rem;
+  }
+  
+  .logo-sosmed img {
+    width: 2rem;
+    background-image: url(/Assets/images/Oval.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0.5rem;
+  }
+  
+  .section-3 {
+    background-color: #e7ebfc;
+    padding: 8rem;
+  }
+  
+  .logo-section-3 img {
+    width: 6rem;
+  }
+  
+  .btn-section-3 {
+    background-color: #19345e;
+  }
+  

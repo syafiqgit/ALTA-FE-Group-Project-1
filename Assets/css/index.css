@@ -147,10 +147,6 @@
     position: static;
     width: 20rem;
   }
-
-  .text-benefit {
-    width: 30rem !important;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -186,8 +182,6 @@
   .benefit-wrap2 img {
     width: 7rem;
   }
-
-  
 }
 
 @media screen and (max-width: 576px) {
